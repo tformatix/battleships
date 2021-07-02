@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Battleships</string>
+    <string name="activity_main_button_add_selection">Add Ship</string>
+    <string name="activity_main_button_reset_selection">Reset Ship</string>
+    <string name="activity_main_button_next_player">Next Player</string>
+    <string name="activity_main_button_restart">Restart</string>
+    <string name="activity_main_tv_available_ships">Available Ships:</string>
+    <string name="activity_main_tv_available_ships_length">Length</string>
+    <string name="activity_main_tv_available_ships_amount">Amount</string>
+    <string name="activity_main_tv_current_player_init">Player 0</string>
+    <string name="activity_main_tv_game_state_init">Initialize Ships</string>
+    <string name="activity_main_tv_game_state_shoot">Shooting</string>
+    <string name="activity_main_tv_game_state_winner">%1$s won</string>
+    <string name="activity_main_tv_footer" translatable="false">&#169; Tobias Fischer</string>
+    <string name="activity_main_img_refresh_desc">Refresh Game</string>
+
+    <string name="dialog_settings_tv_title">Game settings</string>
+    <string name="dialog_settings_tv_table_size">Amount Rows/Columns (5 to 20)</string>
+    <string name="dialog_settings_tv_available_ships">Available Ships (0 to 5)</string>
+    <string name="dialog_settings_5" translatable="false">5</string>
+    <string name="dialog_settings_4" translatable="false">4</string>
+    <string name="dialog_settings_3" translatable="false">3</string>
+    <string name="dialog_settings_2" translatable="false">2</string>
+    <string name="dialog_settings_default5" translatable="false">0</string>
+    <string name="dialog_settings_default4" translatable="false">1</string>
+    <string name="dialog_settings_default3" translatable="false">3</string>
+    <string name="dialog_settings_default2" translatable="false">2</string>
+    <string name="dialog_settings_default_size" translatable="false">10</string>
+    <string name="dialog_settings_toast_success">Settings stored successfully</string>
+    <string name="dialog_settings_toast_invalid">Settings are invalid (check ranges)</string>
+    <string name="dialog_settings_toast_canceled">Settings canceled</string>
+
+    <string name="battle_ground_player_1">Player 1</string>
+    <string name="battle_ground_player_2">Player 2</string>
+
+    <string name="activity_main_toast_error">Some Error occurred!</string>
+    <string name="activity_main_toast_invalid_cell">Please select ship from left to right OR from top to bottom!</string>
+    <string name="activity_main_toast_set_ship_fail">Ship not added (ship unavailable OR ships must not collide with each other)!</string>
+    <string name="activity_main_toast_ship_check_fail">Ships must not collide with each other!</string>
+    <string name="activity_main_toast_reset_ship_fail">Ship unable to remove!</string>
+    <string name="activity_main_toast_no_selection">No selected ship!</string>
+</resources>

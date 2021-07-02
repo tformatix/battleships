@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Schiffe versenken</string>
+    <string name="activity_main_tv_current_player_init">Spieler 0</string>
+    <string name="activity_main_tv_available_ships_amount">Anzahl</string>
+    <string name="activity_main_tv_available_ships_length">Länge</string>
+    <string name="activity_main_tv_available_ships">Verfügbare Schiffe:</string>
+    <string name="activity_main_button_restart">Neustart</string>
+    <string name="activity_main_button_next_player">Nächster Spieler</string>
+    <string name="activity_main_button_reset_selection">Schiff zurücksetzen</string>
+    <string name="activity_main_button_add_selection">Schiff hinzufügen</string>
+    <string name="activity_main_tv_game_state_init">Schiffe hinzufügen</string>
+    <string name="activity_main_tv_game_state_shoot">Schießen</string>
+    <string name="activity_main_tv_game_state_winner">%1$d hat gewonnen</string>
+    <string name="activity_main_img_refresh_desc">Spiel aktualisieren</string>
+
+    <string name="dialog_settings_tv_table_size">Anzahl Zeilen/Spalten</string>
+    <string name="dialog_settings_tv_title">Spieleinstellungen</string>
+    <string name="dialog_settings_tv_available_ships">Verfügbare Schiffe (0 bis 5)</string>
+    <string name="dialog_settings_toast_success">Einstellungen wurden gespeichert</string>
+    <string name="dialog_settings_toast_invalid">Einstellungen fehlerhaft (überprüfen Sie die Wertebereiche)</string>
+    <string name="dialog_settings_toast_canceled">Einstellungen abgebrochen</string>
+
+    <string name="battle_ground_player_1">Spieler 1</string>
+    <string name="battle_ground_player_2">Spieler 2</string>
+
+    <string name="activity_main_toast_error">Ein Fehler trat auf!</string>
+    <string name="activity_main_toast_invalid_cell">Bitte wählen Sie Schiff von links nach rechts ODER von oben nach unten aus!</string>
+    <string name="activity_main_toast_set_ship_fail">Schiff nicht hinzugefügt (Schiff nicht verfügbar ODER sie kollidieren miteinander)</string>
+    <string name="activity_main_toast_ship_check_fail">Schiffe dürfen nicht kollidieren!</string>
+    <string name="activity_main_toast_reset_ship_fail">Schiff kann nicht gelöscht werden!</string>
+    <string name="activity_main_toast_no_selection">Kein Schiff ausgewählt!</string>
+
+</resources>
