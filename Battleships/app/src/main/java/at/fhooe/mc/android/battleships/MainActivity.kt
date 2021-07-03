@@ -131,10 +131,14 @@ class MainActivity : Activity() {
         var valid = true
         if (tableSize !in 5..20)
             valid = false
+        var countShips: Int = 0
         for (availableShip in initAvailableShips) {
+            countShips += availableShip.value
             if (availableShip.value !in 0..5)
                 valid = false
         }
+        if(countShips <= 0)
+            valid = false
         if (valid) {
             Toast.makeText(this@MainActivity, getString(R.string.dialog_settings_toast_success), Toast.LENGTH_LONG).show()
             initGame()
